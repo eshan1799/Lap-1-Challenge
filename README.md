@@ -1,1 +1,1 @@
-# Lap-1-Challenge - Google Clone
+# Lap 1 Challenge - Google Clone
