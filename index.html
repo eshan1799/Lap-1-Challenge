@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Clone</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <script defer src="client.js"></script>
+        </head>
+    <body>
+        <nav>
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <img id="square" src="img/square-hover.png" alt="square" />
+            <a id="signIn" href="#">Sign in</a>
+        </nav>
+
+        <section id="logoAndSearch">
+        <img id="logo" src="img/GoogleLogo.png" alt="Google Logo" />
+        <form id="searchForm" name="searchForm" required>
+            <input id="searchbar" type="text" name="q">
+            <section class="buttonsSection">
+                <input class="buttons" id="submit" type="submit" value="Google Search">
+                <input class="buttons" id="feelingLucky" type="button" value="I'm Feeling Lucky">
+            </section>
+        </form>
+        </section>
+
+        <footer>
+            <ul id="footerBar">
+                <li class="footerLinks"><a href="#">Privacy</a></li>
+                <li class="footerLinks"><a href="#">Terms</a></li>
+                <li class="footerLinks"><a href="#">Settings</a></li> 
+            </ul>
+        </footer>
+    </body>
+</html>
